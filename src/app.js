@@ -3,12 +3,10 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import path from 'path';
-import debug from 'debug';
 
-import testRoute from './api/routes/test.js';
+import testRoute from './routes/test.js';
 
 dotenv.config();
-debug.enable(process.env.DEBUG); // enable DEBUG from .env
 
 const dirname = path.resolve();
 
