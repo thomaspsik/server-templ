@@ -13,5 +13,9 @@ module.exports = {
     'no-console': 0,
     'import/extensions': 0,
     'object-curly-newline': 0,
+    'no-restricted-syntax': 0,
+    'implicit-arrow-linebreak': 0,
+    'function-paren-newline': 0,
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
   },
 };
